@@ -6,5 +6,19 @@ Initial features:
 
 <hr/>
 
-## Features
+## Use Case Requirements
+
+- User `Logs in` takes in a email and pw
+  - After log in takes us to a page for different actions the user can do
+    - One of the actions are a `Generate Cover Letter` page
+      - Takes in some details that the user wants to highlight (optional)
+      - Takes in a job posts in via text or pdf (required)
+      - Button to generate
+        - Once button is pressed it creates a text / pdf of the cover letter.
+
+- `User Register` takes in a email and pw
+
+- `Home Screen` for what we do
+
+- `About us` for our goals and company values
 
