@@ -1,13 +1,16 @@
-
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
+import Home from './Pages/Home.tsx'
 
 function App() {
 
   return (
     <>
-      <h1>Vanguard Buddi System</h1>
-      <div className="card">       
-      </div>
+      <HashRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+        </Routes>
+      </HashRouter>
     </>
   )
 }
