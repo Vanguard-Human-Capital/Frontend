@@ -9,11 +9,7 @@ function App() {
   return (
     <>
       <h1>Vangaurd Buddi System</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-       
+      <div className="card">       
       </div>
     </>
   )
